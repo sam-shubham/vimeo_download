@@ -1,0 +1,24 @@
+{
+  "name": "vimeo-video-downloader",
+  "version": "1.0.0",
+  "description": "A tool for downloading Vimeo private videos and HLS streams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sam Shubham",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "cli-progress": "^3.10.0",
+    "ffmpeg-static": "^4.4.0",
+    "path": "^0.12.7",
+    "child_process": "^1.0.2",
+    "fs": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
